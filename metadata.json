@@ -1,0 +1,6 @@
+{
+  "name": "Hogtech Int’l Ventures",
+  "description": "Professional digital services, document preparation, commercial printing, computer training, and technology-enabled business solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

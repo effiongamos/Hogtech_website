@@ -1,0 +1,59 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Exact Vector Recreation of Hogtech Int’l Ventures Official Logo (IMG-20260625-WA0054.jpg) -->
+  <defs>
+    <!-- Cyan-Teal Wave Dynamic Gradient -->
+    <linearGradient id="hogtechMainWave" x1="10%" y1="60%" x2="90%" y2="40%">
+      <stop offset="0%" stop-color="#00E5C9" />
+      <stop offset="30%" stop-color="#00C4DB" />
+      <stop offset="52%" stop-color="#80F5FF" />
+      <stop offset="70%" stop-color="#00C6B8" />
+      <stop offset="100%" stop-color="#00BBA0" />
+    </linearGradient>
+
+    <!-- Specular Highlight Sheen along Wave Crest -->
+    <linearGradient id="hogtechCrestHighlight" x1="38%" y1="52%" x2="55%" y2="44%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#E2FCFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00C8D8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Deep Navy Canvas -->
+  <rect width="1000" height="1000" fill="#0A182F" rx="32" />
+
+  <!-- 2. Outer Thin Rounded-Corner Border -->
+  <rect x="35" y="35" width="930" height="930" rx="52" stroke="#FFFFFF" stroke-width="6" stroke-opacity="0.85" fill="none" />
+
+  <!-- 3. White Circle Ring with Entry & Exit Gaps for Wave -->
+  <!-- Upper Circle Arc -->
+  <path d="M 235 528 A 290 290 0 1 1 776 490" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" fill="none" />
+  <!-- Lower Circle Arc -->
+  <path d="M 776 525 A 290 290 0 0 1 270 655" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" fill="none" />
+
+  <!-- 4. Letterform 'H' - Slab Serif Elements -->
+  <!-- Left Stem Top -->
+  <path d="M 345 330 H 425 V 348 H 402 V 468 H 368 V 348 H 345 Z" fill="#FFFFFF" />
+  <!-- Left Stem Bottom (Below Wave) -->
+  <path d="M 368 598 V 652 H 340 V 670 H 455 V 652 H 428 C 424 645, 420 635, 418 625 L 418 574 C 402 582, 385 590, 368 598 Z" fill="#FFFFFF" />
+  <!-- Right Stem Top -->
+  <path d="M 588 338 H 658 V 448 C 635 448, 610 448, 588 450 Z" fill="#FFFFFF" />
+  <!-- Right Stem Bottom -->
+  <path d="M 588 505 H 655 V 652 H 675 V 670 H 548 V 652 H 575 C 584 644, 588 632, 588 618 Z" fill="#FFFFFF" />
+  <!-- Right Stem Top Bracket -->
+  <rect x="588" y="338" width="60" height="18" fill="#FFFFFF" />
+  <!-- Tiny Square Dot at Foot of Right Leg -->
+  <rect x="682" y="666" width="16" height="4" fill="#FFFFFF" />
+
+  <!-- 5. Lower White Ribbon Arc -->
+  <path d="M 224 612 C 310 612, 420 545, 562 505 C 530 514, 440 540, 350 588 C 295 615, 252 612, 224 612 Z" fill="#FFFFFF" />
+
+  <!-- 6. Pen Nib / Digital Stylus Collar Base -->
+  <path d="M 230 580 H 260 C 262 580, 264 582, 264 585 V 598 C 264 601, 262 603, 260 603 H 230 C 228 603, 226 601, 226 598 V 585 C 226 582, 228 580, 230 580 Z" fill="#FFFFFF" />
+  <line x1="222" y1="610" x2="265" y2="603" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+
+  <!-- 7. Main Flowing Cyan-Teal Wave Ribbon -->
+  <path d="M 94 508 C 165 540, 240 568, 335 558 C 440 545, 505 468, 620 422 C 700 395, 760 440, 788 474 C 740 435, 680 415, 615 440 C 505 485, 425 565, 310 575 C 220 585, 140 545, 94 508 Z" fill="url(#hogtechMainWave)" />
+
+  <!-- 8. Crest Specular Sheen -->
+  <path d="M 370 512 C 440 480, 500 445, 580 432 C 530 445, 460 480, 400 508 Z" fill="url(#hogtechCrestHighlight)" />
+</svg>
